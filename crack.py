@@ -3,7 +3,8 @@
 ######################################
 import collections
 text = ''
-code = 'shjrvbadvyyplkashavbyjpwolypzavvdlhrvuuleaflzzhnlzdpajoavcpnlulyljpwolyrlfdvykpzaolopkkluzffivsvmklhaoputfmhcvypalovsilpulukvwduwljudeehghyhubwklqjlfrxogilqgsohdvhuhwxuqdgbeoxhsulqwviruydxowdqgdodupghvljgedvhgrqzklfkedqnbrxghflghrqldpvhwwlqjxsvdihkrxvhfr'
+#code decrypted is: hello.
+code = 'ifmmp'
 alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u',
         'v', 'w', 'x', 'y', 'z']
 static_alph = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u',
