@@ -4,6 +4,7 @@
 import collections
 text = ''
 #code decrypted is: hello.
+#There was an error here, but code is longer needed to be changed to "clue1"
 code = 'ifmmp'
 alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u',
         'v', 'w', 'x', 'y', 'z']
@@ -13,8 +14,8 @@ list = collections.deque(alphabet)
 c = 0
 for i in range(0, 25):
     list.rotate(1)
-    for x in clue1:
-        f = clue1[c]
+    for x in code:
+        f = code[c]
         n = static_alph.index(f)
         text += list[n]
         c += 1
