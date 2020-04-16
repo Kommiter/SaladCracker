@@ -6,11 +6,9 @@ text = ''
 #code decrypted is: hello.
 #There was an error here, but code is longer needed to be changed to "clue1"
 code = 'ifmmp'
-alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u',
-        'v', 'w', 'x', 'y', 'z']
 static_alph = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u',
                 'v', 'w', 'x', 'y', 'z']
-list = collections.deque(alphabet)
+list = collections.deque(static_alph)
 c = 0
 for i in range(0, 25):
     list.rotate(1)
